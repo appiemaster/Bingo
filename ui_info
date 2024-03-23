@@ -1,0 +1,16 @@
+
+using { /Fortnite.com/Devices }
+using { /Verse.org/Simulation }
+using { /UnrealEngine.com/Temporary/Diagnostics }
+using { /UnrealEngine.com/Temporary/UI }
+using { /UnrealEngine.com/Temporary/SpatialMath }
+using { /Fortnite.com/UI }
+using { /Verse.org/Colors }
+using { /Verse.org/Colors/NamedColors }
+using { /Fortnite.com/Playspaces }
+using { /Fortnite.com/Characters }
+
+
+ui_info := class:
+    var Canvas : canvas = canvas{}
+    var Overlay : canvas = canvas{}
